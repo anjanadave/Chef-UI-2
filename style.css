@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.part{
+    width: 100vw;
+    height: 70vh;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.main{
+    display: flex;
+}
+
+.content{
+    width: 60vw;
+}
+
+
+
+.content h1{
+   font-size: 50px;
+   color: gray;
+   font-family: 'Dancing Script', cursive;
+   margin-bottom: 30px;
+   margin-right: 600px;
+}
+
+.content h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-right: 450px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /* margin-left: 50px; */
+    text-align: start;
+}
+
+.content p{
+    font-size: 20px;
+    text-align: start;
+    /* margin-left: 50px; */
+}
+
+.main{
+    /* margin-left: 50px; */
+    margin-top: 50px;
+}
+
+
+.input{
+    display: flex;
+    width: 25vw;
+    height: 8vh;
+    border: 1px solid black;
+
+}
+
+.input i{
+    font-size: 30px;
+    color: red;
+    padding-top: 10px;
+}
+
+.input .text h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    padding-right: 200px;
+}
+
+.icon{
+    width: 5vw;
+
+}
+
+.text{
+    width: 15vw;
+}
+
+.form{
+    width: 30vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.form h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.name{
+    width: 20vw;
+    height: 7vh;
+    text-align: center;
+    font-size: 17px;
+}
+
+.mail{
+    width: 20vw;
+    height: 7vh;
+    text-align: center;
+    font-size: 17px; 
+}
+
+.person{
+    width: 20vw;
+    height: 7vh;
+    text-align: center;
+    font-size: 17px;
+}
+
+.date{
+    width: 20vw;
+    height: 7vh;
+    text-align: center;
+    font-size: 17px;
+}
+
+.btn{
+    background: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
